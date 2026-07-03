@@ -1,0 +1,42 @@
+Test Case A (expected: Rejected)
+-------------------------------
+Education: Graduate
+Income AnnuaI (income_annum): 100000
+Loan Amount (loan_amount): 400000
+Loan Term (loan_term): 360
+CIBIL Score (cibil_score): 420
+Self Employed (Self_Employed): No
+Residential Assets Value (residential_assets_value): 10000
+Commercial Assets Value (commercial_assets_value): 0
+Luxury Assets Value (luxury_assets_value): 0
+Bank Asset Value (bank_asset_value): 0
+Gender (gender): Female
+Married (married): No
+Dependents (dependents): 3+
+Coapplicant Income (coapplicant_income): 10000
+Credit History (credit_history): 0
+Property Area (property_area): Rural
+Optional logs: leave blank (auto-calc)
+
+
+
+
+Test Case B (expected: Approved)
+-------------------------------------
+Education: Graduate
+Income AnnuaI (income_annum): 800000
+Loan Amount (loan_amount): 150000
+Loan Term (loan_term): 180
+CIBIL Score (cibil_score): 900
+Self Employed (Self_Employed): No
+Residential Assets Value (residential_assets_value): 500000
+Commercial Assets Value (commercial_assets_value): 100000
+Luxury Assets Value (luxury_assets_value): 50000
+Bank Asset Value (bank_asset_value): 200000
+Gender (gender): Male
+Married (married): Yes
+Dependents (dependents): 0
+Coapplicant Income (coapplicant_income): 300000
+Credit History (credit_history): 1
+Property Area (property_area): Urban
+Optional logs: leave blank (auto-calc)
